@@ -89,6 +89,7 @@ int main() {
 
 	outfile << fixed << showpoint << setprecision(2); 
 	outfile << fName << " " << lName << " " << quan << " " << itemCost << " " << subtotal << " " << totalTax << " " << total; 
+	cout << endl; 
 
 
 	outfile.close();
